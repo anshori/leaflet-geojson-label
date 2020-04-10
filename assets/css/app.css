@@ -1,0 +1,49 @@
+html, body, #map {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+.styleLabelDesa{
+  background: rgba(255, 255, 255, 0);
+  border: 0;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px;
+  font-size: 10pt;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.styleLabelKecamatan{
+  background: rgba(255, 255, 255, 0);
+  border: 0;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px;
+  font-size: 14pt;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-weight: bold;
+}
+.legend {
+  padding: 6px 8px;
+  background: #66757F;
+  border-radius: 4px;
+  border: 2px solid rgba(0,0,0,0.2);
+  background-clip: padding-box;
+  font: 10pt 'Lucida Console', Monaco, monospace;
+  color: white;
+}
+#legend-title {
+  font-weight: bold;
+}
+hr {
+  border: 1px solid white;
+  opacity: 0.2;
+}
+.leaflet-left .leaflet-control-scale {
+  margin-left: 0px;
+}
+.leaflet-bottom .leaflet-control-scale {
+  margin-bottom: 0px;
+}
+.leaflet-right .leaflet-control {
+  margin-right: 1px;
+}
