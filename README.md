@@ -14,9 +14,9 @@ Mengadopsi label dari QGIS2WEB yang menggunakan library _[rbush](https://github.
 
 > Demo:
 
-> Polygon Label: [https://unsorry.net/git/leaflet-geojson-label](https://unsorry.net/git/leaflet-geojson-label)
+> Polygon Label: [https://anshori.github.io/leaflet-geojson-label/](https://anshori.github.io/leaflet-geojson-label/)
 
-> Point Label: [https://unsorry.net/git/leaflet-geojson-label/point.html](https://unsorry.net/git/leaflet-geojson-label/point.html)
+> Point Label: [https://anshori.github.io/leaflet-geojson-label/point.html](https://anshori.github.io/leaflet-geojson-label/point.html)
 
 ---
 
