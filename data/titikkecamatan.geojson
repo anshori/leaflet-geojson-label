@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "titikkecamatan",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "cat": 15, "Kecamatan": "Sedayu" }, "geometry": { "type": "Point", "coordinates": [ 110.258264686161198, -7.824465810985084 ] } },
+{ "type": "Feature", "properties": { "cat": 11, "Kecamatan": "Piyungan" }, "geometry": { "type": "Point", "coordinates": [ 110.462635346004731, -7.843095660970663 ] } },
+{ "type": "Feature", "properties": { "cat": 14, "Kecamatan": "Sanden" }, "geometry": { "type": "Point", "coordinates": [ 110.265644713007291, -7.980896812139882 ] } },
+{ "type": "Feature", "properties": { "cat": 8, "Kecamatan": "Kretek" }, "geometry": { "type": "Point", "coordinates": [ 110.305658651335619, -7.994911719830831 ] } },
+{ "type": "Feature", "properties": { "cat": 10, "Kecamatan": "Pandak" }, "geometry": { "type": "Point", "coordinates": [ 110.287792489651295, -7.924127946418498 ] } },
+{ "type": "Feature", "properties": { "cat": 2, "Kecamatan": "Banguntapan" }, "geometry": { "type": "Point", "coordinates": [ 110.407592085032732, -7.82953575379091 ] } },
+{ "type": "Feature", "properties": { "cat": 1, "Kecamatan": "Bambang lipuro" }, "geometry": { "type": "Point", "coordinates": [ 110.312658477430801, -7.944391646335295 ] } },
+{ "type": "Feature", "properties": { "cat": 6, "Kecamatan": "Jetis" }, "geometry": { "type": "Point", "coordinates": [ 110.36485985736644, -7.910697539706682 ] } },
+{ "type": "Feature", "properties": { "cat": 13, "Kecamatan": "Pundong" }, "geometry": { "type": "Point", "coordinates": [ 110.342483055649311, -7.969383765922183 ] } },
+{ "type": "Feature", "properties": { "cat": 16, "Kecamatan": "Sewon" }, "geometry": { "type": "Point", "coordinates": [ 110.356817194267208, -7.857649292830313 ] } },
+{ "type": "Feature", "properties": { "cat": 3, "Kecamatan": "Bantul" }, "geometry": { "type": "Point", "coordinates": [ 110.33268747061777, -7.895591623222035 ] } },
+{ "type": "Feature", "properties": { "cat": 7, "Kecamatan": "Kasihan" }, "geometry": { "type": "Point", "coordinates": [ 110.324316444071712, -7.829280552699441 ] } },
+{ "type": "Feature", "properties": { "cat": 17, "Kecamatan": "Srandakan" }, "geometry": { "type": "Point", "coordinates": [ 110.239923743233049, -7.962354035393878 ] } },
+{ "type": "Feature", "properties": { "cat": 9, "Kecamatan": "Pajangan" }, "geometry": { "type": "Point", "coordinates": [ 110.287586964683356, -7.87051734510205 ] } },
+{ "type": "Feature", "properties": { "cat": 4, "Kecamatan": "Dlingo" }, "geometry": { "type": "Point", "coordinates": [ 110.458800991749115, -7.920735993416989 ] } },
+{ "type": "Feature", "properties": { "cat": 12, "Kecamatan": "Pleret" }, "geometry": { "type": "Point", "coordinates": [ 110.414094189532534, -7.876701361075992 ] } },
+{ "type": "Feature", "properties": { "cat": 5, "Kecamatan": "Imogiri" }, "geometry": { "type": "Point", "coordinates": [ 110.397564463859965, -7.937306604107013 ] } }
+]
+}

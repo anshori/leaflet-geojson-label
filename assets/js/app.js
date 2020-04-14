@@ -22,7 +22,7 @@ var batasdesa = L.geoJson(null, {
     };
   },
   onEachFeature: function (feature, layer) {
-    var content = layer.feature.properties.Desa.toString('<div>' + layer.feature.properties.Desa + '</div>');
+    var content = layer.feature.properties.Desa.toString();
     layer.bindTooltip(content, {
       direction: 'center',
       permanent: true,
@@ -50,7 +50,7 @@ var bataskecamatan = L.geoJson(null, {
     };
   },
   onEachFeature: function (feature, layer) {
-    var content = 'Kec. ' + layer.feature.properties.Kecamatan.toString('<div>' + layer.feature.properties.Kecamatan + '</div>');
+    var content = 'Kec. ' + layer.feature.properties.Kecamatan.toString();
     layer.bindTooltip(content, {
       direction: 'center',
       permanent: true,
