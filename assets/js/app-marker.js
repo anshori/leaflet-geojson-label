@@ -10,9 +10,6 @@ basemap.addTo(map);
 var titikdesa = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
-      icon: L.divIcon({
-        className: 'leaflet-mouse-marker',
-      }),
       interactive: false
     });
   },
@@ -21,7 +18,8 @@ var titikdesa = L.geoJson(null, {
     layer.bindTooltip(content, {
       direction: 'center',
       permanent: true,
-      className: 'styleLabelDesa'
+      className: 'styleLabelDesa',
+      offset: [0,22]
     });
   }  
 });
@@ -34,9 +32,6 @@ $.getJSON("data/titikdesa.geojson", function (data) {
 var titikkecamatan = L.geoJson(null, {
   pointToLayer: function (feature, latlng) {
     return L.marker(latlng, {
-      icon: L.divIcon({
-        className: 'leaflet-mouse-marker',
-      }),
       interactive: false
     })
   },
@@ -45,7 +40,8 @@ var titikkecamatan = L.geoJson(null, {
     layer.bindTooltip(content, {
       direction: 'center',
       permanent: true,
-      className: 'styleLabelKecamatan'
+      className: 'styleLabelKecamatan',
+      offset: [0,24]
     });
   }  
 });
