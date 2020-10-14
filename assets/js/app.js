@@ -65,7 +65,13 @@ $.getJSON("data/bataskecamatan.geojson", function (data) {
 
 resetLabels([batasdesa, bataskecamatan]);
 map.on("zoomend", function(){
-  resetLabels([batasdesa, bataskecamatan]);
+  if (map.getZoom() <= 12) {
+    map.removeLayer(batasdesa);
+    resetLabels([bataskecamatan]);
+  } else if (map.getZoom() > 12) {
+    map.addLayer(batasdesa);
+    resetLabels([batasdesa, bataskecamatan]);
+  }
 });
 map.on("move", function(){
   resetLabels([batasdesa, bataskecamatan]);

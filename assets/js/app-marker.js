@@ -26,7 +26,6 @@ var titikdesa = L.geoJson(null, {
 $.getJSON("data/titikdesa.geojson", function (data) {
   titikdesa.addData(data);
   map.addLayer(titikdesa);
-  map.fitBounds(titikdesa.getBounds());
 });
 
 var titikkecamatan = L.geoJson(null, {
@@ -48,11 +47,18 @@ var titikkecamatan = L.geoJson(null, {
 $.getJSON("data/titikkecamatan.geojson", function (data) {
   titikkecamatan.addData(data);
   map.addLayer(titikkecamatan);
+  map.fitBounds(titikkecamatan.getBounds());
 });
 
 resetLabels([titikdesa, titikkecamatan]);
 map.on("zoomend", function(){
-  resetLabels([titikdesa, titikkecamatan]);
+  if (map.getZoom() <= 12) {
+    map.removeLayer(titikdesa);
+    resetLabels([titikkecamatan]);
+  } else if (map.getZoom() > 12) {
+    map.addLayer(titikdesa);
+    resetLabels([titikdesa, titikkecamatan]);
+  }
 });
 map.on("move", function(){
   resetLabels([titikdesa, titikkecamatan]);
